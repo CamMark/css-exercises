@@ -1,0 +1,17 @@
+.odd-element{
+    background-color: #ED736B;
+    font-family: "Verdana", "DejaVu Sans", sans-serif;
+}
+#even-num{
+   font-size: 36px; 
+   color: #6BA8ED;
+}
+#cool{
+    font-size: 24px;
+}
+
+#another-id{
+    font-size: 34px;
+    font-weight: 700;
+    background-color: rgb(131,237,107);
+}
