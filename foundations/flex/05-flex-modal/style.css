@@ -15,11 +15,41 @@ body {
   justify-content: center;
 }
 
+
 .modal {
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  padding: 10px;
+}
+
+#left-header,
+.top-line{
+  display: flex;
+  align-items: center;
+  flex: 1, 0, auto;
+  justify-content: space-between;
+}
+
+#left-header{
+  justify-content: flex-start;
+  gap: 10px;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+
+.content{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+.boutons{
+  display: flex;
+  flex-direction: row;
 }
 
 .icon {
